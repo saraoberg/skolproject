@@ -1,0 +1,52 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin:0px;
+    display: inline-table;
+}
+
+#right {
+    max-width: 33%;
+    height: 100%;
+    background-color: powderblue;
+    margin:0px;
+    display: table-cell;
+    padding:0px;
+    overflow: none;
+    box-sizing:border-box;
+}
+
+#middle {
+    background-color: plum;
+    max-width: 33%;
+    height: 100%;
+    margin:0px;
+    display: table-cell;
+    padding:0px;
+    overflow: none;
+    box-sizing:border-box;
+}
+
+#left {
+    max-width: 33%;
+  height: 100%;
+  background-color:purple;
+  margin:0px;
+  display: table-cell;
+  padding:0px;
+  overflow: none;
+  box-sizing:border-box;
+}
+#image {
+    width: 50%;
+    background-image: url("background.JPG");
+    min-height: 100%;
+    float: left;
+    margin:0px;
+    padding: 0px;
+}
+
+p {
+    padding:0px;
+    margin:0px;
+}
